@@ -63,7 +63,7 @@ Instead of eyeballing a t-SNE plot, you can:
 
 ```bash
 Anomalyze/
-├── lib/
+├── anomalyze/
 ├── streamlit_app/
 ├── tests/
 ├── pyproject.toml
