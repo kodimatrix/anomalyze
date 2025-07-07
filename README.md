@@ -54,5 +54,19 @@ Instead of eyeballing a t-SNE plot, you can:
 | **1**       | Scaffold dependencies, core sampling & neighbor-disagreement algorithm with unit tests       |
 | **2**       | MVP UI: connection sidebar, parameter form, results table with neighbor preview & CSV export |
 | **3**       | Dockerfile                                                                                   |
-| **4**       | CI (GitHub Actions), logging & error handling                                    |
+| **4**       | CI (GitHub Actions), logging & error handling                                                |
 | **5**       | Optional t-SNE scatter, color-coded outliers, deep-link jump                                 |
+
+---
+
+## Project structure
+
+```bash
+Anomalyze/
+├── lib/
+├── streamlit_app/
+├── tests/
+├── pyproject.toml
+├── Dockerfile
+└── README.md
+```
